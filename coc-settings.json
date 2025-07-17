@@ -1,3 +1,10 @@
 {
-    "tsserver.maxTsServerMemory": 6096
+  "tsserver.maxTsServerMemory": 6096,
+  "eslint.autoFixOnSave": true,
+  "eslint.format.enable": true,
+  "eslint.probe": ["javascript","javascriptreact","typescript","typescriptreact","html","vue"],
+  "inlayHint.enable": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
 }
